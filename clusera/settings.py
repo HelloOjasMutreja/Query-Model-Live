@@ -128,7 +128,7 @@ STATIC_URL = '/static/'
 
 # Set the directory where your project's static files are located
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "static"), 
 ]
 
 # Set the directory where Django should collect static files
