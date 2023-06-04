@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-m6x7_+7(kmub96sd#iq52l-(dj1$nggi5kc+2qw^g1-c=-)x71
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['web-production-ef944.up.railway.app','127.0.0.1']
+ALLOWED_HOSTS = ['frozen-refuge-56664.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -36,7 +36,7 @@ INSTALLED_APPS = [
 
     'compressor',
 
-    'randomizer.apps.RandomizerConfig',
+    'randomizer',
     'accounts',
 ]
 
@@ -48,7 +48,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'clusera.urls'
